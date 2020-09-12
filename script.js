@@ -1,5 +1,5 @@
-document.querySelector("div:nth-child(3) input").addEventListener("change", licz, false);
-document.querySelector("div:nth-child(4) input").addEventListener("change", licz, false);
+document.querySelector("div:nth-child(1) input").addEventListener("change", licz, false);
+document.querySelector("div:nth-child(2) input").addEventListener("change", licz, false);
 
 function licz() {
 	var liczba_do_zmiany = document.querySelector("div:nth-child(3) input").value;
